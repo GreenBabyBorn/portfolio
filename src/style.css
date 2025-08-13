@@ -3,18 +3,17 @@
 
 body {
     font-family: Roboto Mono;
-    background-color: black; /* Default dark theme background */
-    color: white; /* Default dark theme text */
+    background-color: black;
+    color: white;
 }
 
 @media (prefers-color-scheme: light) {
     body {
-        background-color: white; /* Light theme background */
-        color: black; /* Light theme text */
+        background-color: white;
+        color: black;
     }
 }
 
-/* You can also add a class for manual theme switching if needed */
 body.light-theme {
     background-color: white;
     color: black;
@@ -28,6 +27,7 @@ body.dark-theme {
 ::selection {
     background-color: green;
 }
+
 @media print {
     body {
         background-color: white;
